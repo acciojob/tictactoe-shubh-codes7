@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let name1 = document.querySelector("#player-1")
-let name2 = document.querySelector("#player-2")
+let name1 = document.querySelector("#player1")
+let name2 = document.querySelector("#player2")
 let gameContainer = document.querySelector("#gameContainer")
 let container = document.querySelector(".container")
 let boxes = document.querySelectorAll(".box")
