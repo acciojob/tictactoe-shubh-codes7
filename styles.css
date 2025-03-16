@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	visibility: visible;
+	gap: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+.message{
+	text-align: center;
+	font-size: 25px;
+	margin: 15px;
+}
+.btn{
+	display: block;
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+#gameContainer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 200px;
+	margin: auto;
+	visibility: hidden;
+	
+}
+
+.box{
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: pink;
+}
+
+
+
+
